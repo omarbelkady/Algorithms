@@ -1,3 +1,5 @@
+
+```plaintext
 function Dijkstra(graph, start):
     distances = {node: infinity for node in graph}
     distances[start] = 0
@@ -12,3 +14,4 @@ function Dijkstra(graph, start):
                 distances[neighbor] = distance
                 insert(distance, neighbor, priorityQueue)
     return distances
+```
