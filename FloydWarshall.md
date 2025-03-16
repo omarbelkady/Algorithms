@@ -1,3 +1,4 @@
+```plaintext
 function FloydWarshall(graph):
     distances = graph
     for k from 0 to |V|-1:
@@ -6,3 +7,4 @@ function FloydWarshall(graph):
                 if distances[i][k] + distances[k][j] < distances[i][j]:
                     distances[i][j] = distances[i][k] + distances[k][j]
     return distances
+```
