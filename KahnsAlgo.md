@@ -1,3 +1,4 @@
+```plaintext
 function TopologicalSort(graph):
     inDegree = {node: 0 for node in graph}
     for node in graph:
@@ -15,3 +16,4 @@ function TopologicalSort(graph):
     if length(result) != |V|:
         return "Cycle detected"
     return result
+```
