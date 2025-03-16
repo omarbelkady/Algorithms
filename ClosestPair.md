@@ -1,3 +1,4 @@
+```plaintext
 function ClosestPair(points):
     if length(points) <= 3:
         return bruteForceClosestPair(points)
@@ -9,3 +10,4 @@ function ClosestPair(points):
     d = min(dLeft, dRight)
     strip = [p for p in points if abs(p.x - points[mid].x) < d]
     return min(d, closestInStrip(strip, d))
+```
