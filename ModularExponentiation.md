@@ -1,3 +1,4 @@
+```plaintext
 function ModularExponentiation(base, exponent, mod):
     result = 1
     base = base % mod
@@ -7,3 +8,4 @@ function ModularExponentiation(base, exponent, mod):
         base = (base * base) % mod
         exponent = exponent // 2
     return result
+```
