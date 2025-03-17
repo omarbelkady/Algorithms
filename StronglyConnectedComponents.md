@@ -1,3 +1,4 @@
+```plaintext
 function TarjanSCC(graph):
     index = 0
     stack = []
@@ -35,3 +36,4 @@ function TarjanSCC(graph):
             StrongConnect(node)
 
     return sccs
+```
