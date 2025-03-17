@@ -1,3 +1,4 @@
+```plaintext
 function Prim(graph):
     MST = []
     visited = set()
@@ -11,3 +12,4 @@ function Prim(graph):
                 if neighbor not in visited:
                     insert(edgeWeight, neighbor, priorityQueue)
     return MST
+```
