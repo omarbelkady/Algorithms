@@ -1,3 +1,4 @@
+```plaintext
 function QuickSort(array, low, high):
     if low < high:
         pivotIndex = Partition(array, low, high)
@@ -13,3 +14,4 @@ function Partition(array, low, high):
             swap(array[i], array[j])
     swap(array[i+1], array[high])
     return i+1
+```
