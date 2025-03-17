@@ -1,3 +1,5 @@
+'''plaintext
+
 function Knapsack(weights, values, capacity):
     n = length(weights)
     dp = [[0] * (capacity+1) for _ in range(n+1)]
@@ -8,3 +10,4 @@ function Knapsack(weights, values, capacity):
             else:
                 dp[i][w] = dp[i-1][w]
     return dp[n][capacity]
+'''
