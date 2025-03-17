@@ -1,3 +1,4 @@
+```plaintext
 function MergeSort(array):
     if length(array) <= 1:
         return array
@@ -17,3 +18,4 @@ function Merge(left, right):
             remove(right[0])
     append remaining elements of left and right to result
     return result
+```
