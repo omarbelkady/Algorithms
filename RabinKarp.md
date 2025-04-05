@@ -1,3 +1,4 @@
+```plaintext
 function RabinKarp(text, pattern):
     prime = 101
     d = 256
@@ -14,3 +15,4 @@ function RabinKarp(text, pattern):
             if tHash < 0:
                 tHash += prime
     return -1
+```

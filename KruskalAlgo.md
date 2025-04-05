@@ -1,3 +1,4 @@
+```plaintext
 function Kruskal(graph):
     edges = sort all edges by weight
     parent = {node: node for node in graph}
@@ -9,3 +10,4 @@ function Kruskal(graph):
             Union(parent, rank, u, v)
             add edge to MST
     return MST
+```

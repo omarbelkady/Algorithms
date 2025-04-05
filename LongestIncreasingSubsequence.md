@@ -1,3 +1,4 @@
+```plaintext
 function LIS(array):
     n = length(array)
     dp = [1] * n
@@ -6,3 +7,4 @@ function LIS(array):
             if array[j] < array[i]:
                 dp[i] = max(dp[i], dp[j] + 1)
     return max(dp)
+```

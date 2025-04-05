@@ -1,3 +1,4 @@
+```plaintext
 function SelectionSort(array):
     n = length(array)
     for i from 0 to n-1:
@@ -6,3 +7,4 @@ function SelectionSort(array):
             if array[j] < array[minIndex]:
                 minIndex = j
         swap(array[i], array[minIndex])
+```

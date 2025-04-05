@@ -1,3 +1,4 @@
+```plaintext
 function Find(parent, x):
     if parent[x] != x:
         parent[x] = Find(parent, parent[x])
@@ -14,3 +15,4 @@ function Union(parent, rank, x, y):
         else:
             parent[rootY] = rootX
             rank[rootX] += 1
+```

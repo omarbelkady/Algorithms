@@ -1,3 +1,4 @@
+```plaintext
 function EditDistance(word1, word2):
     m = length(word1)
     n = length(word2)
@@ -13,3 +14,4 @@ function EditDistance(word1, word2):
             else:
                 dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])
     return dp[m][n]
+```

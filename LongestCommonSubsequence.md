@@ -1,3 +1,4 @@
+```plaintext
 function LCS(X, Y):
     m = length(X)
     n = length(Y)
@@ -9,3 +10,4 @@ function LCS(X, Y):
             else:
                 dp[i][j] = max(dp[i-1][j], dp[i][j-1])
     return dp[m][n]
+```

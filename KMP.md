@@ -1,3 +1,4 @@
+```plaintext
 function KMP(text, pattern):
     lps = ComputeLPS(pattern)
     i = 0, j = 0
@@ -12,7 +13,8 @@ function KMP(text, pattern):
             else:
                 i++
     return -1
-
+```
+```plaintext
 function ComputeLPS(pattern):
     lps = [0] * length(pattern)
     len = 0, i = 1
@@ -25,3 +27,4 @@ function ComputeLPS(pattern):
             else:
                 lps[i] = 0, i++
     return lps
+```

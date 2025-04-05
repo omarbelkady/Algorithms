@@ -1,3 +1,4 @@
+```plaintext
 function InsertionSort(array):
     n = length(array)
     for i from 1 to n-1:
@@ -7,3 +8,4 @@ function InsertionSort(array):
             array[j+1] = array[j]
             j = j - 1
         array[j+1] = key
+```
